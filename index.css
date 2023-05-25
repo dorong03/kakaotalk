@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.top_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 175px;
+    margin-right: 175px;
+    height: 72px;
+    align-items: center;
+}
+
+.company_href {
+    display: flex;
+    flex-direction: row;
+}
+
+.company_item {
+    padding-left: 28px;
+    padding-right: 28px;
+    font-weight: 500;
+}
+
+.side_tool {
+    display: flex;
+    flex-direction: row;
+}
+
+.tool_item {
+    margin-left: 8px;
+}
+
+.bottom_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 179px;
+    margin-right: 179px;
+    height: 72px;
+    align-items: center;
+}
+
+.wrap_download {
+    display: flex;
+    flex-direction: row;
+}
+
+.download_item2::before {
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    margin: 0 20px -2px;
+    background-color: rgb(231, 231, 231);
+    content: "";
+}
+
+.border_line {
+    border-top: 1px solid rgb(231, 231, 231);
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.wrap_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+}
+
+.main_section {
+    margin-bottom: 72px;
+    margin-left: 340px;
+    margin-right: 340px;
+}
+
+.wrap_icon {
+    display: flex;
+    flex-direction: row;
+    margin-top: 38px;
+}
+
+body {
+    margin: 0px 0px 0px 0px !important;
+}
+
+.kakao_text {
+    font-weight: 300;
+    font-size:larger;
+}
+
+.main_text {
+    text-align: center;
+    font-size: 250%;
+}

@@ -4,105 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kakaotalk</title>
+    <title>사람과 세상을 향한 
+        모든 연결의 시작, 카카오톡 | 카카오</title>
+    <link rel="shortcut icon" href="https://www.kakaocorp.com/page/favicon.ico">
+    <link rel="stylesheet" href="index.css">
     <style>
-
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500&display=swap');
-
-        body {
-            font-family: 'Noto Sans KR', sans-serif;
-        }
-
-        .top_menu {
-            display: flex;
-            flex-direction: row;
-            justify-content:space-between;
-            margin-left: 179px;
-            margin-right: 179px;
-            height: 72px;
-            align-items: center;
-        }
-
-        .company_href {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .company_item {
-            padding-left: 28px;
-            padding-right: 28px;
-            font-weight: 500;
-        }
-
-        .side_tool {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .tool_item {
-            margin-left: 8px;
-        }
-
-        .bottom_menu {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-left: 179px;
-            margin-right: 179px;
-            height: 72px;
-            align-items: center;
-        }
-
-        .wrap_download {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .download_item2::before {
-            display: inline-block;
-            width: 1px;
-            height: 16px;
-            margin: 0 20px -2px;
-            background-color: darkgrey;
-            content: "";
-        }
-
-        .border_line {
-            border-top: 1px solid darkgray;
-            border-bottom: 1px solid darkgray;
-        }
-
-        .wrap_main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-top: 72px;
-        }
-
-        .main_section {
-            margin-bottom: 72px;
-            margin-left: 340px;
-            margin-right: 340px;
-        }
-
-        .wrap_icon {
-            display: flex;
-            flex-direction: row;
-            margin-top: 38px;
-        }
-
-        body {
-            margin: 0px 0px 0px 0px !important;
-        }
-
-        .kakao_text {
-            font-weight: 300;
-            font-size:larger;
-        }
-
-        .main_text {
-            text-align: center;
-            font-size: 250%;
+        .script_image {
+            scroll-snap-align: start;
+            object-fit: contain;
+            width: 100%; 
         }
 
     </style>
@@ -129,7 +39,7 @@
             <div class="wrap_download">
                 <div class="download_item1">카톡 안녕가이드</div>
                 <div class="download_item2">카톡설명서</div>
-                <div class="download_item2">다운로드</div>
+                <div class="download_item2">다운로드<img src="images/download.PNG" alt=""></div>
             </div>
         </div>
     </section>
@@ -146,7 +56,9 @@
                 </div>
             </div>
         </section>
-        <img src="images/main.PNG" alt="카카오톡 사진">
+        <div class="scroll_container">
+            <img class="script_image" src="images/main.PNG" alt="카카오톡 사진">
+        </div>
     </main>
 </body>
 </html>
